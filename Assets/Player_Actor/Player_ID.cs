@@ -72,7 +72,7 @@ public class Player_ID : NetworkBehaviour {
 
     void Change_Player_Color(string _Player_Color)
     {
-        gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("PvP/Player/" + _Player_Color);
+        gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Player/" + _Player_Color);
     }
 
     string MakeUniqueIdentity()
